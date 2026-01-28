@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naxro AI</title>
+
+  <script>
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(ua)) {
+      window.location.replace("https://play.google.com/store/apps/details?id=com.naxro.ai");
+    } else if (/iPad|iPhone|iPod/.test(ua)) {
+      window.location.replace("https://apps.apple.com/app/naxro-ai-ingredient-insights/id6755406154");
+    } else {
+      window.location.replace("https://naxro.ai");
+    }
+  </script>
+</head>
+
+<body>
+  <p>Yönlendiriliyorsunuz…</p>
+</body>
+</html>
